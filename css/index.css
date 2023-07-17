@@ -102,10 +102,47 @@ header {
 
 }
 
-icon {
-    color: blue;
-    size: 50px;
+a{
+    padding-right: 200px;
 }
+
+
+.fa-facebook {
+    background: white;
+    color: black;
+    height: 20px;
+    width: 20px;
+    font-size: 30px;
+    margin: top 50px;
+    margin-right: 100px;
+
+    
+    
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: white;
+    color: black;
+    height: 20px;
+    width: 20px;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-right: 100px;
+    
+  }
+
+  .fa-instagram {
+    background: white;
+    color: black;
+    height: 20px;
+    width: 20px;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-right: 100px;
+  }
+
+
 
 /* spacers */
 .spacer {
@@ -136,9 +173,9 @@ icon {
 }
 
 .gallery img {
-    width: 30%;
-    margin-bottom: 50px;
-    margin-right: 50px;
+    width: 20%;
+    margin-bottom: 100px;
+    margin-right: 100px;
 }
 
 
@@ -227,6 +264,15 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: black;
+
+footer p{
+    color: white;
+    font-size: 8;
+}
+
+
+
 
     
 }
@@ -285,4 +331,5 @@ footer {
         padding-top: 2.5vh;
         font-size: 2rem;
     }
+
 }
